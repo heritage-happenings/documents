@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   sodipodi:docname="2022-06-01-logo.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   id="svg5"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.0654602"
+     inkscape:cx="396.54228"
+     inkscape:cy="561.25984"
+     inkscape:window-width="2048"
+     inkscape:window-height="1502"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1100"
+       units="cm"
+       spacingx="5"
+       spacingy="5"
+       empspacing="10"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path3712"
+       style="fill:#782121;fill-opacity:1;stroke:#000000;stroke-width:0.263887px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23.14806,60.105134 13.09443,109.97359 H 33.04161 L 35.05231,100 h -9.97359 l 6.03222,-29.921278 h 9.97359 l 2.0107,-9.973588 z m 17.93647,9.973588 -2.01071,9.973586 h 9.97359 l 2.01071,-9.973587 z m 9.97359,0 h 9.9741 L 55,100 h -9.9741 l -2.0107,9.97359 H 62.96289 L 73.01651,60.105134 H 53.06882 Z M 45.0259,100 47.03671,90.025897 H 37.06312 L 35.05231,100 Z" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style Semi-Bold Italic';fill:#782121;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="75"
+       y="80"
+       id="text4712"><tspan
+         sodipodi:role="line"
+         id="tspan4710"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.4px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style Semi-Bold Italic';fill:#782121;stroke-width:0.264583"
+         x="75"
+         y="80">Heritage</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style Semi-Bold Italic';fill:#782121;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="69.231056"
+       y="109.33213"
+       id="text4766"><tspan
+         sodipodi:role="line"
+         id="tspan4764"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.4px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style Semi-Bold Italic';fill:#782121;stroke-width:0.264583"
+         x="69.231056"
+         y="109.33213">Happenings</tspan></text>
+  </g>
+</svg>
