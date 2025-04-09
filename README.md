@@ -5,6 +5,10 @@
 
 Heritage on the Marina turns 100 as landmark. 
 
+https://heritage-happenings.github.io/history/
+
+https://github.com/heritage-happenings/history
+
 https://heritage-happenings.github.io/history/publications/2025-01-sfheritage-newsletter/2025-03-r02-sfheritage-reprint-centenary.pdf
 
 https://heritage-happenings.github.io/history/publications/1953-rowena-bean-inasmuch/1953-rowena-beans-inasmuch-history-sflpars.pdf
