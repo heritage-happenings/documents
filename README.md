@@ -14,3 +14,5 @@ https://heritage-happenings.github.io/history/publications/1970-carol-wilson-a-h
 https://heritage-happenings.github.io/history/publications/2003-ashley-chase-our-heritage/2003-ashley-chase-our-heritage.pdf
 
 https://heritage-happenings.github.io/history/documents/2025-03-27-san-francisco-hotm-day/2025-03-27-san-francisco-hotm-day.pdf
+
+https://heritage-happenings.github.io/history/documents/2025-03-27-julia-morgan-building-centenary-celebration/2025-03-27-julia-morgan-building-centenary-celebration.pdf
