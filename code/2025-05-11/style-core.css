@@ -123,6 +123,11 @@ a:active {
   text-decoration: underline;
 }
 
+a br{
+
+  margin-bottom: 10pt;
+
+}
 
 
 /* GitHub icon vertical alignment */
