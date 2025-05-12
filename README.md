@@ -1,6 +1,6 @@
 # Heritage Happenings / Documents
 
-[![GitHub Repository](https://img.shields.io/github/stars/heritage-happenings/heritage-happenings-documents?style=social)](https://github.com/heritage-happenings/documents)
+[![GitHub Repository](https://img.shields.io/github/stars/heritage-happenings/documents?style=social)](https://github.com/heritage-happenings/documents)
 
 ## Overview
 
