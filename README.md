@@ -1,14 +1,15 @@
 # Heritage Happenings / Documents
 
-[![GitHub Repository](https://img.shields.io/github/stars/heritage-happenings/documents?style=social)](https://github.com/heritage-happenings/documents)
+[![GitHub Repository](https://img.shields.io/github/stars/heritage-happenings/heritage-happenings-documents?style=social)](https://github.com/heritage-happenings/heritage-happenings-documents)
 
 ## Overview
 
-This repository contains historical documents, books, publications, and other materials related to Heritage on the Marina (AKA San Francisco Ladies Protection and Relief Society). It serves as an archive of important historical documents and publications that preserve the rich history of the organization.
+This repository contains historical documents, books, publications, and other materials related to Heritage on the Marina (formerly San Francisco Ladies Protection and Relief Society). It serves as a digital archive of important historical documents and publications that preserve the rich heritage of this historic San Francisco institution dating back to 1853.
 
 ## Repository Contents
 
 ### Books
+
 Historical books documenting the history of Heritage:
 - **1953-Inasmuch**: Early historical account
 - **1970-A-History-of-the-Heritage**: Comprehensive historical documentation
