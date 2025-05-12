@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains historical documents, books, publications, and other materials related to Heritage on the Marina (formerly San Francisco Ladies Protection and Relief Society). It serves as an archive of important historical documents and publications that preserve the rich history of the organization.
+This repository contains historical documents, books, publications, and other materials related to Heritage on the Marina (AKA San Francisco Ladies Protection and Relief Society). It serves as an archive of important historical documents and publications that preserve the rich history of the organization.
 
 ## Repository Contents
 
