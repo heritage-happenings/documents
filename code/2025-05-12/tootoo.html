@@ -22,7 +22,6 @@
       --main-hue: 10;
       /* 0 to 360 0=red 120=green 240=blue */
     }
-
   </style>
 
 </head>
@@ -51,7 +50,7 @@
 
       filterFolders: ["code", "temporary"], //"activities", "code", "files", "history", "kiosk", "people", "residents-council"], //[ "code"],
 
-      ignoreFiles: [ "404.html", "favicon.ico", "index.html", "readme.html" ],
+      ignoreFiles: ["404.html", "favicon.ico", "index.html", "readme.html"],
     }
 
   </script>
@@ -68,28 +67,35 @@
         ☰
       </summary>
 
-      <nav id="navMenu" class="gmd-4">      <div id=divHeader>
+      <nav id="navMenu" class="gmd-4">
 
-          <header>            <h1>
+        <div id=divHeader>
+
+          <header>
+            <h1>
               <div class="title-link">
-                <a id=aSource href="" target="_top" title="Click to go to the source code on GitHub"><img id="imgGitHub" src="https://pushme-pullyou.github.io/assets/svg/mark-github.svg"></a>
+                <a id=aSource href="" target="_top" title="Click to go to the source code on GitHub"><img id="imgGitHub"
+                    src="https://pushme-pullyou.github.io/assets/svg/mark-github.svg"></a>
                 <a href="https://heritage-happenings.github.io/documents/" title="Click this title to reload this page">
-                  <span id=spnTitle>Heritage Happenings / Documents 16:50</span>
-                  <span id=spnVersion></span>
+                  <span id=spnTitle>Heritage Happenings / Documents</span>
+                  <span id=spnVersion>16:50<</span>
                 </a>
               </div>
             </h1>
 
           </header>
-          
+
         </div>
 
         <div id=divExtras>
-          <button onclick="document.body.style.fontSize='80%'; sumNavMenu.style.width='10rem'; document.getElementById('imgGitHub').style.width='16px';"
+          <button
+            onclick="document.body.style.fontSize='80%'; sumNavMenu.style.width='10rem'; document.getElementById('imgGitHub').style.width='16px';"
             style="font-size:80%;">A</button>
-          <button onclick="document.body.style.fontSize='100%'; sumNavMenu.style.width='13rem'; document.getElementById('imgGitHub').style.width='20px';"
+          <button
+            onclick="document.body.style.fontSize='100%'; sumNavMenu.style.width='13rem'; document.getElementById('imgGitHub').style.width='20px';"
             style="font-size:100%;">A</button>
-          <button onclick="document.body.style.fontSize='150%'; sumNavMenu.style.width='20rem'; document.getElementById('imgGitHub').style.width='30px';"
+          <button
+            onclick="document.body.style.fontSize='150%'; sumNavMenu.style.width='20rem'; document.getElementById('imgGitHub').style.width='30px';"
             style="font-size:150%;">A</button>
 
         </div>
@@ -133,7 +139,7 @@
 
     init();
 
-    function init () {
+    function init() {
 
       document.getElementById("aSource").href = COR.urlSource;
 
@@ -144,7 +150,7 @@
       // }
 
 
-      if ( window.innerWidth < 800 || window.innerHeight < 500 ) {
+      if (window.innerWidth < 800 || window.innerHeight < 500) {
 
         //document.documentElement.style.setProperty( "--mnu-width", "35%" );
         //console.log( "bb", 23 );
@@ -153,7 +159,7 @@
 
       } else {
 
-        const value = window.getComputedStyle( document.documentElement ).getPropertyValue( '--mnu-width' ); // #999999
+        const value = window.getComputedStyle(document.documentElement).getPropertyValue('--mnu-width'); // #999999
         //console.log( "value", value );
         detNavMenu.style.width = value;
         detNavMenu.style.maxWidth = "50%";
