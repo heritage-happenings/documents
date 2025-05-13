@@ -71,7 +71,7 @@ async function fetchGitHubRepoContents(user, repo) {
       const editmeLink = document.createElement('a');
       editmeLink.innerHTML = "✎";
       editmeLink.href = `https://theo-armour.github.io/qdata/apps/notesy/#https://api.github.com/repos/${user}/${repo}/contents/${item.path}`;
-      editmeLink.target = '_blank';
+      //editmeLink.target = '_blank';
 
       const newLine = document.createElement('br');
       const space = document.createElement('span');
@@ -82,7 +82,7 @@ async function fetchGitHubRepoContents(user, repo) {
       folderContents.appendChild(readmeLink);
 
       // if ( [ "", "LICENSE", "txt", "md", "markdown" ].includes( extension ) ) {
-      //         folderContents.appendChild( editmeLink );
+      //          folderContents.appendChild( editmeLink );
       // }
 
       folderContents.appendChild(newLine);
