@@ -110,7 +110,7 @@ const GFO = ( function () {
         const extension = getExtension(url);
      
         // Handle text-based content types
-        if ( [ "", "/license", "txt", "md", "markdown" ].includes( extension ) ) {
+        if ( [ "", "LICENSE", "txt", "md", "markdown" ].includes( extension ) ) {
           // Process Markdown content
           txt = txt.replace( /\<!--@@@/, "" ).replace( /\@@@--\>/, "" );
           divMainContent.innerHTML = new showdown.Converter( options ).makeHtml( txt );

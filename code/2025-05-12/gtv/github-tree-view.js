@@ -64,7 +64,7 @@ async function fetchGitHubRepoContents(user, repo) {
 
       const readmeLink = document.createElement('a');
       readmeLink.innerHTML = " <img src='https://pushme-pullyou.github.io/assets/svg/icon-external-link.svg' width=16 >";
-      readmeLink.href = `../../readme.html#${item.path}`;
+      readmeLink.href = `../../index.html#${item.path}`;
 
       let extension = getExtension(item.path);
 
