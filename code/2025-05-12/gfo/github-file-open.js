@@ -66,6 +66,8 @@ const GFO = ( function () {
 
     } else {
 
+      //window.history.pushState( "", "", "file:///c%3A/Users/tarmo/OneDrive/Documents/GitHub/heritage-happenings-documents/index.html" + location.hash );
+ 
       COR.pathContent = "../../"
 
     }
