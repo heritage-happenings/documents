@@ -22,3 +22,8 @@ const COR = {
     ignoreFiles: [], //["404.html", "favicon.ico", "index.html", "readme.html"],
 }
 
+/* 0 to 360 10=red 120=green 240=blue */
+let r = document.querySelector(':root');
+r.style.setProperty('--main-hue', '10');
+r.style.setProperty('--mnu-width', '19rem');
+

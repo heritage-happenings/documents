@@ -61,7 +61,7 @@ const GFO = (function () {
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
 
-    document.title = COR.menuTitle + title;
+    document.title = COR.menuTitle + "~" + title;
   }
 
   function fetchFile(url, options) {
