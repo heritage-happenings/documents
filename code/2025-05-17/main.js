@@ -7,7 +7,7 @@ const COR = {
 
     // Used by GTV ~ github tree view
     user: "heritage-happenings",
-    repo: "heritage-happenings.github.io",
+    repo: "documents",
     branch: "main",
 
     urlSource: "https://github.com/heritage-happenings/heritage-happenings.github.io",
@@ -15,7 +15,7 @@ const COR = {
     urlPushPath: "https://heritage-happenings.github.io/documents",
 
     menuTitle: "Heritage Happenings",
-    version: "Version: 2025-05-17 14:29",
+    version: "Version: 2025-05-17 17:07",
  
     filterFolders: [], //[ "code" ],
 
