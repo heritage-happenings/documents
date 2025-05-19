@@ -6,20 +6,20 @@ const COR = {
     pathContent: "../../",
 
     // Used by GTV ~ github tree view
-    user: "pushme-pullyou",
-    repo: "tootoo-2025",
+    user: "heritage-happenings",
+    repo: "documents",
     branch: "main",
 
-    urlSource: "https://github.com/pushme-pullyou/tootoo-2025/tree/main/tootoo",
-    urlPathContent: "https://pushme-pullyou.github.io/tootoo-2025/",
-    urlPushPath: "https://pushme-pullyou.github.io/tootoo-2025/tootoo/",
+    urlSource: "https://github.com/heritage-happenings/heritage-happenings.github.io",
+    urlPathContent: "https://heritage-happenings.github.io/documents",
+    urlPushPath: "https://heritage-happenings.github.io/documents",
 
-    menuTitle: "TooToo 2025",
+    menuTitle: "Heritage Happenings / Documents",
     version: "Version: 2025-05-18",
+ 
+    filterFolders: [], //[ "code" ],
 
-    filterFolders: [], //[ "code"],
-
-    ignoreFiles: [], //[ "404.html", "favicon.ico", "index.html", "LICENSE", "readme.html" ],
+    ignoreFiles: [], //["404.html", "favicon.ico", "index.html", "readme.html"],
 }
 
 if (location.protocol === "https:") {
