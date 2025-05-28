@@ -7,8 +7,8 @@ const COR = {
     branch: "main",
     version: "2025-05-27",
     
-    menuTitle: "Heritage Happenings",
-    menuTitleEdit: "HH Edit",
+    menuTitle: "HH Documents",
+    menuTitleEdit: "Document Edit",
 
     // Used by GFO ~ github file open
     defaultFile: "README.md",
