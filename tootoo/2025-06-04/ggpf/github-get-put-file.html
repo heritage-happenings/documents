@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<meta name="description" content="Get and put Markdown files to a private or public GitHub repo">
-	<meta name="date" content="2025-06-01">
+	<meta name="date" content="2025-06-03">
 
 	<title>getPutFile2GitGub</title>
 
@@ -44,7 +44,6 @@
 		}
 
 		main h2 {
-
 			display: inline;
 			margin: 0;
 		}
@@ -78,25 +77,13 @@
 			vertical-align: middle;
 		}
 
-		summary {
-			cursor: pointer;
-			font-size: 1rem;
-			margin: 0;
-			padding: 0;
-		}
-
-		summary p {
-			margin: 0;
-			padding: 0;
-		}
-
 		.aDingbat {
 			text-decoration: none;
 			font-size: 1.5rem;
 		}
 
 		#header {
-			background: white;
+			background: white#;
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -152,12 +139,6 @@
 
 		function init(hash = COR.defaultFileEdit) {
 
-			hash = hash.replace(/@@/, "");
-
-			location.hash = location.hash ? location.hash : hash;
-
-			//console.log("hash", hash);
-
 			aPath.title = document.head.querySelector("[ name=date ]").content;
 
 			githubAccessToken();
@@ -168,8 +149,9 @@
 
 			divContent.addEventListener('blur', requestSync); // Changed from onBlur -> getSha to requestSync
 
-		};
+			onHashChange();
 
+		};
 
 		function githubAccessToken() {
 
@@ -188,13 +170,15 @@
 
 		function onHashChange(event) {
 
-			console.log("onHashChange", parent.location.hash.slice(1));
+			console.log("parent.location.hash ", parent.location.hash);
 
-			//const hash = location.hash ? location.hash.slice(1) : COR.defaultFileEdit;
+			let hash = parent.location.hash ? parent.location.hash.slice(1) : COR.defaultFileEdit;
 
-			//hash = parent.location.hash.slice(1);
+			hash = hash.replace(/@@/, "");
 
-			COR.url = COR.urlBaseAPI + parent.location.hash.slice(3);
+			console.log("onHashChange", hash);
+
+			COR.url = COR.urlBaseAPI + hash;
 			//console.log("COR.url", COR.url);
 
 			COR.fileName = COR.url.split("/").pop();
@@ -207,9 +191,11 @@
 
 		function checkForChange(event) {
 
+			console.log( "Content", divContent.innerText.length,"COR", COR.githubContent.length );
+		
 			if (divContent.innerText === COR.githubContent) { return; } // Compare with githubContent
 
-			if (!COR.url.endsWith("md")) return;
+			//if (!COR.url.endsWith("md")) return;
 
 			console.log("checkForChange", COR.fileName);
 
@@ -257,11 +243,11 @@
 			// console.log( "content", xhr.target.response );
 
 			let content = decodeURIComponent(escape(window.atob(xhr.target.response.content)));
-			content = content.replace(/\<!--@@@/, " ).replace /\@@@--\>/, " );
+			//content = content.replace(/<!--@@@/, "" ).replace /\@@@--\>/, "" );
 
 			divContent.innerText = content;
 
-			COR.content = divContent.innerHTML;
+			COR.content = divContent.innerText;
 
 			divMessage.innerText = `T:${new Date().toLocaleString().slice(11, -3)} B:${content.length.toLocaleString()}`;
 
@@ -283,7 +269,7 @@
 		function autoSave() {
 
 			if (!COR.saveInterval) {
-				// Calls requestSync instead of getSha
+
 				COR.saveInterval = setInterval(requestSync, 15000); // 15 seconds
 
 			} else {
@@ -296,7 +282,6 @@
 		};
 
 
-		// Replaces getSha and putFileToGitHub with a new flow
 		function requestSync() {
 			const editorContent = divContent.innerText;
 
